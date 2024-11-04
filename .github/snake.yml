@@ -19,9 +19,12 @@ jobs:
           is_cropped: true
       
       - name: Commit and push changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}  # Use the token you created
         run: |
           git config --local user.email "your_email@example.com"
           git config --local user.name "Your Name"
           git add output/github-contribution-grid-snake.svg
           git commit -m "Update snake"
-          git push
+          git push --force https://x-access-token:${GITHUB_TOKEN}@github.com/Babanjadhav1255/Babanjadhav1255.git output
+
