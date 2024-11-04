@@ -52,21 +52,14 @@
    <img width="46%" align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Babanjadhav1255&hide=HTML&langs_count=8&layout=compact&theme=react&border_radius=10&size_weight=0.5&count_weight=0.5&exclude_repo=github-readme-stats" 
      alt="" />   
 <br/>
-</div>
-<hr/>
+
 <div align="center">
   <h2>🐍 My Contributions 🐍</h2>
   <br>
-  <img alt="snake eating my contributions" src="<div align="center">
-  <h2>🐍 My Contributions 🐍</h2>
-  <br>
-  <img alt="snake eating my contributions" src="https://Babanjadhav1255.github.io/github-contribution-grid-snake.svg" />
+  <img alt="snake eating my contributions" src="https://raw.githubusercontent.com/Babanjadhav1255/Babanjadhav1255/output/github-contribution-grid-snake.svg" />
   <br/><br/><br/>
 </div>
-" />
-  
-  <br/><br/><br/>
-</div>
+
 
 
  <br>
