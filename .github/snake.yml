@@ -1,0 +1,27 @@
+name: Snake
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Runs daily at midnight UTC
+  workflow_dispatch:
+
+jobs:
+  snake:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      
+      - name: Generate snake
+        uses: Platane/snk@v2
+        with:
+          github_user: 'Babanjadhav1255'  # Your GitHub username
+          is_cropped: true
+      
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "your_email@example.com"
+          git config --local user.name "Your Name"
+          git add output/github-contribution-grid-snake.svg
+          git commit -m "Update snake"
+          git push
